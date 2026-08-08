@@ -36,13 +36,13 @@ This project demonstrates how to ingest, transform, and load sales data using **
 - **Location:** Lakehouse → Files → `Portfolio_lakehouse_project1`
 - **Ingestion Method:** Dataflow Gen2 → *Transform data (Power Query)*
 ### Lakehouse Source File
-![Lakehouse Files - sample_sales.csv](images/lakehouse_files.png)
+![Lakehouse Files - sample_sales.csv](lakehouse_files.png)
 *Figure 1 – Lakehouse Files view showing sample_sales.csv used as the source.*
 
 
 ## 2. Initial Power Query Setup
 ### Power Query – Initial Setup
-![Power Query Initial Transformations](images/powerquery_initial.png)
+![Power Query Initial Transformations](powerquery_initial.png)
 *Figure 2 – Power Query Editor showing Source and Navigation steps before applying Promoted Headers and Changed Column Types.*
 
 Power Query automatically applied:
@@ -59,7 +59,7 @@ Table.TransformColumnTypes(#"Promoted headers", {
 
 ## 3. Group By Transformation
 ### Power Query – Group By Step
-![Group By Transformation](images/groupby_step.png)
+![Group By Transformation](groupby_step.png)
 *Figure 3 – Power Query Editor showing the Group By transformation and aggregated totals.*
 
 To aggregate total sales per product:
@@ -76,7 +76,7 @@ Table.Group(#"Changed column type", {"Product"}, {
 
 ## 4. Output Summary Table
 ### Output Summary Table (Screenshot)
-![Output Summary](images/output_summary.png)
+![Output Summary](output_summary.png)
 *Figure 4 – Final aggregated sales table stored in the Lakehouse, showing Product, Category, Sales, and Date.*
 
 | Product  | TotalSales |
@@ -93,7 +93,7 @@ The transformed and aggregated data is loaded into the Fabric Lakehouse as a man
 
 Portfolio_lakehouse_project1 / tables / dbo / SalesData_Grouped
 ### Lakehouse Managed Table (Screenshot)
-![Lakehouse Managed Table](images/lakehouse_table_load.png)
+![Lakehouse Managed Table](lakehouse_table_load.png)
 *Figure 5 – Managed table SalesData_Grouped (example: publicholidays) created in the Lakehouse after Dataflow Gen2 load.*
 
 This allows downstream analytics, reporting, and warehouse-style querying using SQL or notebooks.
