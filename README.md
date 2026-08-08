@@ -18,6 +18,16 @@
 
 </p>
 
+<p align="left">
+
+  <!-- GitHub Repo Stats -->
+  <img src="https://img.shields.io/github/stars/SastryXYZ/fabric-sales-etl?style=flat-square" />
+  <img src="https://img.shields.io/github/forks/SastryXYZ/fabric-sales-etl?style=flat-square" />
+  <img src="https://img.shields.io/github/license/SastryXYZ/fabric-sales-etl?style=flat-square" />
+
+</p>
+
+
 ## Overview
 This project demonstrates how to ingest, transform, and load sales data using Microsoft Fabric Dataflow Gen2 and Power Query. The pipeline loads a CSV file, applies data type transformations, aggregates sales by product, and stores the final table in a Fabric Lakehouse.
 
