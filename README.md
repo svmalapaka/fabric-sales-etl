@@ -1,10 +1,22 @@
-# Sales ETL Pipeline Using Microsoft Fabric
+# 🚀 Sales ETL Pipeline Using Microsoft Fabric
 
-![Microsoft Fabric](https://img.shields.io/badge/Microsoft-Fabric-blue?style=flat-square)
-![Power Query](https://img.shields.io/badge/Power%20Query-M--Code-green?style=flat-square)
-![Dataflow Gen2](https://img.shields.io/badge/Dataflow-Gen2-orange?style=flat-square)
-![Lakehouse](https://img.shields.io/badge/Lakehouse-Delta%20Tables-yellow?style=flat-square)
-![Status](https://img.shields.io/badge/Project-Complete-brightgreen?style=flat-square)
+<p align="left">
+
+  <!-- Core Fabric Badges -->
+  <img src="https://img.shields.io/badge/Microsoft%20Fabric-0078D4?style=flat-square&logo=microsoft&logoColor=white" />
+  <img src="https://img.shields.io/badge/Dataflow%20Gen2-FF6F00?style=flat-square&logo=powerbi&logoColor=white" />
+  <img src="https://img.shields.io/badge/Power%20Query-217346?style=flat-square&logo=microsoft-excel&logoColor=white" />
+  <img src="https://img.shields.io/badge/Lakehouse-FFB900?style=flat-square&logo=databricks&logoColor=white" />
+  <img src="https://img.shields.io/badge/Delta%20Tables-FF6F00?style=flat-square&logo=apache-spark&logoColor=white" />
+
+  <!-- Tools & Output -->
+  <img src="https://img.shields.io/badge/Power%20BI-F2C811?style=flat-square&logo=powerbi&logoColor=black" />
+  <img src="https://img.shields.io/badge/ETL%20Pipeline-4CAF50?style=flat-square" />
+
+  <!-- Status -->
+  <img src="https://img.shields.io/badge/Status-Complete-brightgreen?style=flat-square" />
+
+</p>
 
 ## Overview
 This project demonstrates how to ingest, transform, and load sales data using Microsoft Fabric Dataflow Gen2 and Power Query. The pipeline loads a CSV file, applies data type transformations, aggregates sales by product, and stores the final table in a Fabric Lakehouse.
