@@ -35,6 +35,17 @@
 ## Overview
 This project demonstrates how to ingest, transform, and load sales data using Microsoft Fabric Dataflow Gen2 and Power Query. The pipeline loads a CSV file, applies data type transformations, aggregates sales by product, and stores the final table in a Fabric Lakehouse.
 
+## Diagrams
+
+### Architecture
+![Architecture](architecture.svg)
+
+### Pipeline
+![Pipeline](pipeline.svg)
+
+### Report Preview
+![Report](report.svg)
+
 ## Technologies Used
 - Microsoft Fabric
 - Dataflow Gen2
