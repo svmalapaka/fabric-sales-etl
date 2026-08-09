@@ -27,6 +27,10 @@
 
 </p>
 
+<!-- Banner -->
+<p align="center">
+  <img src="banner.png" width="100%" alt="Fabric ETL Banner">
+</p>
 
 ## Overview
 This project demonstrates how to ingest, transform, and load sales data using Microsoft Fabric Dataflow Gen2 and Power Query. The pipeline loads a CSV file, applies data type transformations, aggregates sales by product, and stores the final table in a Fabric Lakehouse.
